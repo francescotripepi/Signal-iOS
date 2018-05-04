@@ -290,7 +290,7 @@ class ContactViewController: OWSViewController, CNContactViewControllerDelegate 
 
         for phoneNumber in systemContactsWithSignalAccountsForContact() {
             let phoneNumberLabel = UILabel()
-            phoneNumberLabel.text = PhoneNumber.bestEffortLocalizedPhoneNumber(withE164: firstPhoneNumber.phoneNumber)
+            phoneNumberLabel.text = PhoneNumber.bestEffortLocalizedPhoneNumber(withE164: phoneNumber)
             phoneNumberLabel.font = UIFont.ows_dynamicTypeFootnote
             phoneNumberLabel.textColor = UIColor.black
             phoneNumberLabel.lineBreakMode = .byTruncatingTail
@@ -391,7 +391,7 @@ class ContactViewController: OWSViewController, CNContactViewControllerDelegate 
         for phoneNumber in contact.phoneNumbers {
             let formattedPhoneNumber = PhoneNumber.bestEffortLocalizedPhoneNumber(withE164: phoneNumber.phoneNumber)
 
-            addRow(createNameValueRow(name: phoneNumber.localizedLabel(),
+            rows.append(createSimpleFieldRow(name: phoneNumber.localizedLabel(),
                                       value: formattedPhoneNumber,
                                       actionBlock: {
                                         guard let url = NSURL(string: "tel:\(phoneNumber.phoneNumber)") else {
@@ -403,7 +403,7 @@ class ContactViewController: OWSViewController, CNContactViewControllerDelegate 
         }
 
         for email in contact.emails {
-            addRow(createSimpleFieldRow(name: email.localizedLabel(),
+            rows.append(createSimpleFieldRow(name: email.localizedLabel(),
                                       value: email.email,
                                       actionBlock: {
                                         guard let url = NSURL(string: "mailto:\(email.email)") else {
@@ -415,7 +415,7 @@ class ContactViewController: OWSViewController, CNContactViewControllerDelegate 
         }
 
         for address in contact.addresses {
-            addRow(createAddressFieldRow(name: address.localizedLabel(),
+            rows.append(createAddressFieldRow(name: address.localizedLabel(),
                                         address: address,
                                         actionBlock: { [weak self] _ in
                                             guard let strongSelf = self else { return }
