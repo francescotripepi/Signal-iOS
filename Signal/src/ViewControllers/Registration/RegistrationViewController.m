@@ -97,10 +97,11 @@ NSString *const kKeychainKey_LastRegisteredPhoneNumber = @"kKeychainKey_LastRegi
     } else {
         [headerContent autoSetDimension:ALDimensionHeight toSize:220];
 
-        UIImage *logo = [UIImage imageNamed:@"logoSignal"];
+        UIImage *logo = [UIImage imageNamed:@"logoSignalSmall"];
         OWSAssert(logo);
         UIImageView *logoView = [UIImageView new];
         logoView.image = logo;
+        logoView.contentMode = UIViewContentModeScaleAspectFit;
         [headerContent addSubview:logoView];
         [logoView autoHCenterInSuperview];
         [logoView autoPinEdge:ALEdgeBottom toEdge:ALEdgeTop ofView:headerLabel withOffset:-14.f];
