@@ -12,13 +12,13 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (UIColor *)ows_signalBrandBlueColor
 {
-    return [UIColor colorWithRed:63.00/255.00 green:195.00/255.00 blue:128.00/255.00 alpha:1.0];
+    return [UIColor colorWithRed:255.00/255.00 green:100.00/255.00 blue:0.00/255.00 alpha:0.75];
 }
 
 + (UIColor *)ows_materialBlueColor
 {
     // blue: #2090EA
-    return [UIColor colorWithRed:63.00/255.00 green:195.00/255.00 blue:128.00/255.00 alpha:1.0];
+    return [UIColor colorWithRed:255.00/255.00 green:100.00/255.00 blue:0.00/255.00 alpha:0.75];
 }
 
 + (UIColor *)ows_blackColor
