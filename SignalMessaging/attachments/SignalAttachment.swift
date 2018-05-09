@@ -313,7 +313,7 @@ public class SignalAttachment: NSObject {
         if let filename = sourceFilename {
             return filename.filterFilename()
         } else {
-            let kDefaultAttachmentName = "signal"
+            let kDefaultAttachmentName = "Bymeft"
 
             let dateFormatter = DateFormatter()
             dateFormatter.dateFormat = "YYYY-MM-dd-HHmmss"
