@@ -5,10 +5,10 @@
 "ACCEPT_NEW_IDENTITY_ACTION" = "Yeni Güvenlik Numarasını Kabul et";
 
 /* Label for 'audio call' button in contact view. */
-"ACTION_AUDIO_CALL" = "Signal Call";
+"ACTION_AUDIO_CALL" = "Byme Call";
 
 /* Label for 'invite' button in contact view. */
-"ACTION_INVITE" = "Invite to Signal";
+"ACTION_INVITE" = "Invite to Byme";
 
 /* Label for 'sent message' button in contact view. */
 "ACTION_SEND_MESSAGE" = "Send Message";
@@ -86,7 +86,7 @@
 "APP_UPDATE_NAG_ALERT_UPDATE_BUTTON" = "Güncelle";
 
 /* Name of application */
-"APPLICATION_NAME" = "Bymeft";
+"APPLICATION_NAME" = "Byme";
 
 /* Pressing this button moves a thread from the inbox to the archive */
 "ARCHIVE_ACTION" = "Arşivle";
@@ -903,7 +903,7 @@
 "HOME_VIEW_TITLE_ARCHIVE" = "Archive";
 
 /* Title for the home view's default mode. */
-"HOME_VIEW_TITLE_INBOX" = "Bymeft";
+"HOME_VIEW_TITLE_INBOX" = "Byme";
 
 /* Call setup status label */
 "IN_CALL_CONNECTING" = "Bağlanıyor...";

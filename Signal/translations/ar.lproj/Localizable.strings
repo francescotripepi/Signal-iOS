@@ -5,10 +5,10 @@
 "ACCEPT_NEW_IDENTITY_ACTION" = "قبول رقم الأمان الجديد";
 
 /* Label for 'audio call' button in contact view. */
-"ACTION_AUDIO_CALL" = "Signal Call";
+"ACTION_AUDIO_CALL" = "Byme Call";
 
 /* Label for 'invite' button in contact view. */
-"ACTION_INVITE" = "Invite to Signal";
+"ACTION_INVITE" = "Invite to Byme";
 
 /* Label for 'sent message' button in contact view. */
 "ACTION_SEND_MESSAGE" = "Send Message";

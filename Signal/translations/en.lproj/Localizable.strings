@@ -5,10 +5,10 @@
 "ACCEPT_NEW_IDENTITY_ACTION" = "Accept New Safety Number";
 
 /* Label for 'audio call' button in contact view. */
-"ACTION_AUDIO_CALL" = "Signal Call";
+"ACTION_AUDIO_CALL" = "Byme Call";
 
 /* Label for 'invite' button in contact view. */
-"ACTION_INVITE" = "Invite to Signal";
+"ACTION_INVITE" = "Invite to Byme";
 
 /* Label for 'sent message' button in contact view. */
 "ACTION_SEND_MESSAGE" = "Send Message";
@@ -86,7 +86,7 @@
 "APP_UPDATE_NAG_ALERT_UPDATE_BUTTON" = "Update";
 
 /* Name of application */
-"APPLICATION_NAME" = "Bymeft";
+"APPLICATION_NAME" = "Byme";
 
 /* Pressing this button moves a thread from the inbox to the archive */
 "ARCHIVE_ACTION" = "Archive";
@@ -669,7 +669,7 @@
 "EMPTY_ARCHIVE_FIRST_TEXT" = "Tap on the compose button.";
 
 /* No comment provided by engineer. */
-"EMPTY_ARCHIVE_FIRST_TITLE" = "Start your first Signal conversation!";
+"EMPTY_ARCHIVE_FIRST_TITLE" = "Start your first Byme conversation!";
 
 /* No comment provided by engineer. */
 "EMPTY_ARCHIVE_TEXT" = "You can archive inactive conversations for later from your Inbox.";
@@ -678,7 +678,7 @@
 "EMPTY_ARCHIVE_TITLE" = "Clean Up Your Conversations.";
 
 /* Full width label displayed when attempting to compose message */
-"EMPTY_CONTACTS_LABEL_LINE1" = "None of your contacts have Signal.";
+"EMPTY_CONTACTS_LABEL_LINE1" = "None of your contacts have Byme.";
 
 /* Full width label displayed when attempting to compose message */
 "EMPTY_CONTACTS_LABEL_LINE2" = "Why don't you invite someone?";
@@ -915,7 +915,7 @@
 "HOME_VIEW_TITLE_ARCHIVE" = "Archive";
 
 /* Title for the home view's default mode. */
-"HOME_VIEW_TITLE_INBOX" = "Bymeft";
+"HOME_VIEW_TITLE_INBOX" = "Byme";
 
 /* Call setup status label */
 "IN_CALL_CONNECTING" = "Connecting…";
@@ -963,7 +963,7 @@
 "INVITE_FLOW_REQUIRES_CONTACT_ACCESS_TITLE" = "Allow Contact Access";
 
 /* Label for the cell that presents the 'invite contacts' workflow. */
-"INVITE_FRIENDS_CONTACT_TABLE_BUTTON" = "Invite Friends to Signal";
+"INVITE_FRIENDS_CONTACT_TABLE_BUTTON" = "Invite Friends to Byme";
 
 /* Search */
 "INVITE_FRIENDS_PICKER_SEARCHBAR_PLACEHOLDER" = "Search";

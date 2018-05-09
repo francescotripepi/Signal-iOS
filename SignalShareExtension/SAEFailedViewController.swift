@@ -38,7 +38,7 @@ class SAEFailedViewController: UIViewController {
         self.navigationItem.leftBarButtonItem = UIBarButtonItem(barButtonSystemItem: .cancel,
                                                                 target: self,
                                                                 action: #selector(cancelPressed))
-        self.navigationItem.title = "Bymeft"
+        self.navigationItem.title = "Byme"
 
         self.view.backgroundColor = UIColor.ows_signalBrandBlue
 
